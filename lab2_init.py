@@ -169,8 +169,8 @@ async def clear_db():
 
 async def main():
     conn = await asyncpg.connect(
-        user='merksai',
-        password='ebuprincess',
+        user='...',
+        password='...',
         database='business_center',
         host='localhost',
         port='5432'
